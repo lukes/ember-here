@@ -1,6 +1,6 @@
-<strong>Colors</strong>
+<strong>Photos</strong>
 <ul class="list-group">
 {{#each}}
-    <li class="list-group-item">{{title}}</li>
+    <li class="list-group-item">{{title}} {{longitude}} {{latitude}} <img {{ bind-attr src=url_sq }} /></li>
 {{/each}}
 </ul>
