@@ -19,7 +19,10 @@ Here.PhotoAdapter = DS.RESTAdapter.extend({
         format: "json"
       }
     }).then(function(response) {
-      return {photos: response.photos.photo};
+      // remove non-geoencoded photos
+      // "latitude":0, "longitude":0
+      photos = response.photos.photo.rejectBy("latitude", 0)
+      return {photos: photos};
     });
 
   }
