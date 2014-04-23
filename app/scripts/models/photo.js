@@ -8,5 +8,5 @@ Here.Photo = DS.Model.extend({
   woeid: DS.attr(),
   media: DS.attr(),
   media_status: DS.attr(),
-  url_sq: DS.attr()
+  url_q: DS.attr()
 });

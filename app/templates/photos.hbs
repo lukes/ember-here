@@ -1,6 +1,7 @@
-<strong>Photos</strong>
-<ul class="list-group">
+<ol class="list-group">
 {{#each}}
-    <li class="list-group-item">{{title}} {{longitude}} {{latitude}} <img {{ bind-attr src=url_sq }} /></li>
+    <li class="list-group-item">
+      <img {{ bind-attr src=url_q }} />
+    </li>
 {{/each}}
-</ul>
+</ol>

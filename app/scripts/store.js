@@ -13,7 +13,9 @@ Here.PhotoAdapter = DS.RESTAdapter.extend({
         method: "flickr.people.getPublicPhotos",
         api_key: "6e83193374827994bec62c2baefffa8c",
         user_id: "65946368@N00",
-        extras: "geo,media,url_sq",
+        per_page: "30",
+        page: "1",
+        extras: "geo,media,url_q",
         format: "json"
       }
     }).then(function(response) {
