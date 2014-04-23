@@ -1,6 +1,7 @@
 <ol class="list-group">
 {{#each}}
     <li class="list-group-item">
+      <div class="map">{{view Here.MapView latitude=latitude longitude=longitude}}</div>
       <img {{ bind-attr src=url_q }} />
     </li>
 {{/each}}

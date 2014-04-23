@@ -1,5 +1,1 @@
-Here.PhotosController = Ember.ArrayController.extend({
-
-
-
-});
+Here.PhotosController = Ember.ArrayController.extend({});
