@@ -11,7 +11,7 @@ Here.PhotoAdapter = DS.RESTAdapter.extend({
       dataType: "jsonp",
       data: {
         method: "flickr.people.getPublicPhotos",
-        api_key: "6e83193374827994bec62c2baefffa8c",
+        api_key: "fb7448aaded0e958cff2f3530e731b75",
         user_id: "65946368@N00",
         per_page: "30",
         page: "1",
