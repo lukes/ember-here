@@ -4,7 +4,7 @@ Here.PhotoAdapter = DS.RESTAdapter.extend({
 
   findAll: function(store, type, sinceToken) {
 
-    var flickerAPI = "http://api.flickr.com/services/rest?jsoncallback=?";
+    var flickerAPI = "https://api.flickr.com/services/rest?jsoncallback=?";
 
     return Em.$.ajax({
       url: flickerAPI,
