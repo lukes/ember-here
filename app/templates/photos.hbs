@@ -1,8 +1,10 @@
-<ol class="list-group">
+<ol>
 {{#each}}
-    <li class="list-group-item">
-      <div class="map">{{view Here.MapView latitude=latitude longitude=longitude}}</div>
-      <img {{ bind-attr src=url_q }} />
+    <li class="row collapse">
+      <div class="map small-7 medium-9 large-10 columns">{{view Here.MapView latitude=latitude longitude=longitude}}</div>
+      <div class="small-5 medium-3 large-2 columns">
+        <img {{ bind-attr src=url_q }} />
+      </div>
     </li>
 {{/each}}
 </ol>

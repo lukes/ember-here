@@ -1,17 +1,22 @@
 /* Put your CSS here */
 html, body {
-  padding: 20px;
+  padding: 10px;
 }
 
 img {
-  /*border: 1px solid #666;*/
   border-radius: 2px;
 }
 
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-.map {
-  display: inline-block;
+.columns {
+  padding: 0;
+}
+
+.row {
+  max-width: 100% !important;
 }
