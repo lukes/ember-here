@@ -5,18 +5,11 @@ html, body {
 
 img {
   border-radius: 2px;
+  margin: 0 0 5px 5px;
 }
 
 ol {
   list-style-type: none;
   margin: 0;
   padding: 0;
-}
-
-.columns {
-  padding: 0;
-}
-
-.row {
-  max-width: 100% !important;
 }
